@@ -30,9 +30,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = "django-insecure-i2s-#&i7zv^6mjla=nyiys!q#u7gatt1cop^fg&6#i2u59l!ud"
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['church-books-management-production.up.railway.app', '127.0.0.1', 'localhost']
 
 
 # Application definition
